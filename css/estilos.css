@@ -1,0 +1,18 @@
+body {background-image: url(flores.png);}
+.titulo {color:#138D75;}
+.titulo {text-align: center;}
+.antetitulo {color:#117A65}
+h2 {color: #73C6B6; font-size: large; text-decoration: overline;}
+p {font-size: medium}
+ul {font-size: medium}
+ol {font-size: medium}
+.vintage {text-align: center;}
+.acocinar {color:lightgreen}
+.acocinar {font-size: medium}
+#video, #mapa {
+  display: block;
+  margin: 0 auto;
+  text-align: center;}
+img {width: 40%; height:auto;}
+.imagen {display: flex;justify-content: center;align-items: center;height: auto;}
+.enlaces {text-align: right; font-style: oblique; font-size: large}
