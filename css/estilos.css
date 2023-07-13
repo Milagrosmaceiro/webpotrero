@@ -1,18 +1,46 @@
-body {background-image: url(flores.png);}
+body {background-image: url(flores.png);
+background-color:#4CE8A6}
+
 .titulo {color:#138D75;}
 .titulo {text-align: center;}
+
 .antetitulo {color:#117A65}
-h2 {color: #73C6B6; font-size: large; text-decoration: overline;}
-p {font-size: medium}
-ul {font-size: medium}
-ol {font-size: medium}
+.intro {color: #45B39D;
+        text-decoration: none;
+padding: 5px;
+      }
+.parrafo {color: #264B44}
+h2 {color: #117A65; font-size: large; text-decoration: overline; margin: 20px}
+
+p {font-size: medium; margin: 30px}
+ul {font-size: medium; margin: 30px}
+ol {font-size: medium; margin: 30px}
+
 .vintage {text-align: center;}
-.acocinar {color:lightgreen}
-.acocinar {font-size: medium}
+.acocinar {color:#138D75}
+.acocinar {font-size: x-large}
+
 #video, #mapa {
   display: block;
   margin: 0 auto;
   text-align: center;}
+
 img {width: 40%; height:auto;}
+
 .imagen {display: flex;justify-content: center;align-items: center;height: auto;}
 .enlaces {text-align: right; font-style: oblique; font-size: large}
+
+header {background-color: #4CE8A6;
+        padding: 10px;
+        margin: 10px;
+        }
+
+section {top: 5em;}
+.receta {background-color: #4CE8A6;
+           padding: 10px;
+           margin: 20px;
+           }
+
+.icono {bottom: 20px; right: 20px; z-index: 0000;}
+.icono img {width: 40px; height: auto; ; margin: 10px}
+.wsp img {position: fixed; bottom: 20px; right: 20px; z-index: 0000;width: 40px; height: auto; ; margin: 10px}
