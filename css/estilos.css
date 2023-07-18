@@ -1,5 +1,10 @@
 body {background-image: url(flores.png);
 background-color:#4CE8A6}
+.logo {
+  width: 130px;
+  height: 140px;
+}
+
 
 .titulo {color:#138D75;}
 .titulo {text-align: center;}
@@ -29,17 +34,21 @@ img {width: 40%; height:auto;}
 
 .imagen {display: flex;justify-content: center;align-items: center;height: auto;}
 .enlaces {text-align: right; font-style: oblique; font-size: large}
+.pie {display: flex;justify-content: center;align-items: center;height: auto;   background-color: #6ae2ab;}
 
-header {background-color: #4CE8A6;
+header {
+  background-color: #6ae2ab;
         padding: 10px;
         margin: 10px;
-        }
+}
 
 section {top: 5em;}
 .receta {background-color: #4CE8A6;
            padding: 10px;
            margin: 20px;
            }
+footer {background-color: #4CE8A6; padding: 10px;
+margin: 10px;}
 
 .icono {bottom: 20px; right: 20px; z-index: 0000;}
 .icono img {width: 40px; height: auto; ; margin: 10px}
