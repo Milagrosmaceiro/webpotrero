@@ -1,24 +1,42 @@
-body {background-image: url(flores.png);
-background-color:#4CE8A6}
+body {background-image: url(aura.png);
+      background-size: cover;
+      background-color:#4CE8A6;
+      font-family: 'Quicksand', sans-serif;
+     }
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 .logo {
-  width: 130px;
-  height: 140px;
+  width: 15vw;
+  height: 25vh;
 }
 
 
-.titulo {color:#138D75;}
-.titulo {text-align: center;}
+.titulo {
+        color:#138D75;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+}
+        }
 
 .antetitulo {color:#117A65}
 .intro {color: #45B39D;
         text-decoration: none;
-padding: 5px;
+        padding: 5px;
       }
-.parrafo {color: #264B44}
+.parrafo {
+         color: #264B44;
+         font-size: 1.2rem;
+         margin: 1.5rem;
+ }
 h2 {color: #117A65; font-size: large; text-decoration: overline; margin: 20px}
 
 p {font-size: medium; margin: 30px}
-ul {font-size: medium; margin: 30px}
+ul {
+    font-size: medium;
+    margin: 30px;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    }
 ol {font-size: medium; margin: 30px}
 
 .vintage {text-align: center;}
@@ -32,24 +50,52 @@ ol {font-size: medium; margin: 30px}
 
 img {width: 40%; height:auto;}
 
-.imagen {display: flex;justify-content: center;align-items: center;height: auto;}
+.imagen {width: 40vw; padding: 30px;
+  margin: 5px;}
 .enlaces {text-align: right; font-style: oblique; font-size: large}
-.pie {display: flex;justify-content: center;align-items: center;height: auto;   background-color: #6ae2ab;}
+.pie {display: flex;justify-content: center;align-items: center;height: auto;   background-color: #23a38a;  border-radius: 20px;}
 
 header {
-  background-color: #6ae2ab;
+  background-color: #34c5a8;
         padding: 10px;
         margin: 10px;
+         border-radius: 20px;
+         width: 95vw;
 }
 
 section {top: 5em;}
-.receta {background-color: #4CE8A6;
+.section1 {width: 95vw;}
+.receta {background-color: #56c9b2;
            padding: 10px;
-           margin: 20px;
+           margin: 10px;
+           width: 50vw;
+           border-radius: 20px;
            }
-footer {background-color: #4CE8A6; padding: 10px;
-margin: 10px;}
+footer {background-color: #56c9b2; padding: 10px;
+margin: 10px;  border-radius: 20px; width: 95vw;}
 
 .icono {bottom: 20px; right: 20px; z-index: 0000;}
 .icono img {width: 40px; height: auto; ; margin: 10px}
 .wsp img {position: fixed; bottom: 20px; right: 20px; z-index: 0000;width: 40px; height: auto; ; margin: 10px}
+
+a:active {color: violet;}
+a:hover {color:  #23a38a;}
+a {
+      display: inline-block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.3s ease;
+    }
+
+    a:hover {
+      transform: scale(1.2);
+    }
+
+  @font-face {
+  font-family: 'sans';
+  src: url('../fonts/sserife.ttf') format('truetype');
+}
+.enlaces {
+font-family: 'sserife.ttf';
+} /*no me toma la fuente, no sé porqué../*
