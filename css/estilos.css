@@ -133,3 +133,18 @@ font-family: 'sserife.ttf';
  body { font-size: 25px;
 }
 }
+
+.card {
+      border: none;
+     padding: 10px;
+      text-align: center;  height: 400px;
+    background-color: #F1FFFC}
+
+       .card img {  width: 70%;
+         display: block;
+         margin: 0 auto;
+                 }
+                 .card h4,
+                 .card p {
+                   margin: 0;
+                 }
