@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/flex.css">
-     <meta name="Receta Alfajores de Maicena" content="Recetas pasteleras argentinas.">
+    <meta name="Receta Alfajores de Maicena" content="Recetas pasteleras argentinas.">
+    <script>
+        window.onload = function() {
+          alert("¡Bienvenidx a nuestro sitio web de recetas de alfajores de maicena y mucho más!");
+        };
+      </script>
+
   </head>
   <body>
-
     <header>
 
   <img class="logo"src="./iconos/logo.png" alt="logo">
@@ -32,8 +37,11 @@
   </a>
 
 </div>
-  </header>
 
+  </header>
+  <div class="boton">
+    <button style="font-family:Century Gothic;" class="boton1" onclick="toggleInclusivity()">Modo inclusivo</button>
+</div>
 <nav>
 
 <br>
@@ -180,9 +188,23 @@
 </div>
 
  <p style="font-family: monospace;">© 2023 / Milagros Maceiro</p>
+ <button  class="datos" onclick="mostrarDatosCreador()">Datos del creador</button>
+</footer>
 
+<script>
+ function mostrarDatosCreador() {
+   const datosCreador= "Creador: Milagros Maceiro\nEmail: maceiromilagros24@gmail.com";
+   alert(datosCreador);
+ }
+</script>
 </footer>
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ <script class="inclusivo">
+   function toggleInclusivity() {
+     const body = document.body;
+     body.classList.toggle("inclusivo");
+   }
+ </script>
   </body>
 </html>

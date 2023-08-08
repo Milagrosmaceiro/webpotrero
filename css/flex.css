@@ -12,4 +12,4 @@ footer {display: flex;
        justify-content:space-around;
        align-items: center;
       flex-wrap: wrap;}
-    
+.boton, .enlaces {display: flex; justify-content: space-around;}
